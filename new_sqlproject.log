@@ -1,0 +1,50 @@
+;;; 
+Export: Release 11.2.0.1.0 - Production on Sat Apr 30 17:03:39 2016
+
+Copyright (c) 1982, 2009, Oracle and/or its affiliates.  All rights reserved.
+;;; 
+Connected to: Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - Production
+With the Partitioning, OLAP, Data Mining and Real Application Testing options
+Starting "USER40725"."SYS_EXPORT_SCHEMA_01":  user40725/******** schemas=user40725 directory=sqlproject logfile=new_sqlproject.log dumpfile=newsqlproject.dmp 
+Estimate in progress using BLOCKS method...
+Processing object type SCHEMA_EXPORT/TABLE/TABLE_DATA
+Total estimation using BLOCKS method: 832 KB
+Processing object type SCHEMA_EXPORT/USER
+Processing object type SCHEMA_EXPORT/SYSTEM_GRANT
+Processing object type SCHEMA_EXPORT/ROLE_GRANT
+Processing object type SCHEMA_EXPORT/DEFAULT_ROLE
+Processing object type SCHEMA_EXPORT/PRE_SCHEMA/PROCACT_SCHEMA
+Processing object type SCHEMA_EXPORT/SEQUENCE/SEQUENCE
+Processing object type SCHEMA_EXPORT/TABLE/TABLE
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/INDEX
+Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/CONSTRAINT
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/STATISTICS/INDEX_STATISTICS
+Processing object type SCHEMA_EXPORT/TABLE/COMMENT
+Processing object type SCHEMA_EXPORT/PACKAGE/PACKAGE_SPEC
+Processing object type SCHEMA_EXPORT/FUNCTION/FUNCTION
+Processing object type SCHEMA_EXPORT/PROCEDURE/PROCEDURE
+Processing object type SCHEMA_EXPORT/PACKAGE/COMPILE_PACKAGE/PACKAGE_SPEC/ALTER_PACKAGE_SPEC
+Processing object type SCHEMA_EXPORT/FUNCTION/ALTER_FUNCTION
+Processing object type SCHEMA_EXPORT/PROCEDURE/ALTER_PROCEDURE
+Processing object type SCHEMA_EXPORT/PACKAGE/PACKAGE_BODY
+Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/REF_CONSTRAINT
+Processing object type SCHEMA_EXPORT/TABLE/TRIGGER
+Processing object type SCHEMA_EXPORT/TABLE/STATISTICS/TABLE_STATISTICS
+. . exported "USER40725"."ADDRESS"                       7.140 KB      11 rows
+. . exported "USER40725"."AVAILABILITY"                  6.601 KB      14 rows
+. . exported "USER40725"."CARER"                         12.21 KB      10 rows
+. . exported "USER40725"."CARER_AVAILABILITY"            5.734 KB      28 rows
+. . exported "USER40725"."CLIENT"                        8.390 KB      11 rows
+. . exported "USER40725"."COMMENTS"                      10.79 KB      11 rows
+. . exported "USER40725"."COMPANY_CAR"                   6.687 KB      12 rows
+. . exported "USER40725"."COMPANY_CAR_AUDIT"             7.507 KB       1 rows
+. . exported "USER40725"."COVER"                         6.289 KB       2 rows
+. . exported "USER40725"."HOLIDAY"                       7.828 KB       9 rows
+. . exported "USER40725"."MANAGER"                       8.445 KB      10 rows
+. . exported "USER40725"."PERIOD"                        6.515 KB      12 rows
+. . exported "USER40725"."VISIT"                         8.335 KB      12 rows
+Master table "USER40725"."SYS_EXPORT_SCHEMA_01" successfully loaded/unloaded
+******************************************************************************
+Dump file set for USER40725.SYS_EXPORT_SCHEMA_01 is:
+  C:\FORBES\UCD\MYCOURSE\STREAMS\SEMESTER2\INTRODUCTIONTORDANDSQL\PROJECT\PROJECTDUMP\NEWSQLPROJECT.DMP
+Job "USER40725"."SYS_EXPORT_SCHEMA_01" successfully completed at 17:04:22
